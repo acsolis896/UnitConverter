@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div id="hero">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <p id=numberUnit>20</p>
+        </div>
+        
+        <div id="calculations">
+            <div class="convUnit">
+                <h4 class="valuetitle">Length (Meter/Feet)</h4>
+                 <p class="results">20 meters = <span id="lengthMF" onload="lengthMF()">0</span> feet | 20 feet = <span id="lengthFM" onload="lengthFM()">0</span> meters</p>
+            </div>
+            
+            <div class="convUnit">
+                <h4 class="valuetitle">Volume (Liters/Gallons)</h4> 
+                <p class="results">20 liters = <span id="volumeLG" onload="volumeLG()">0</span> gallons | 20 gallons = <span id="volumeGL" onload= "volumeGL()">0</span> liters</p>
+            </div>
+            
+            <div class="convUnit">
+                <h4 class="valuetitle">Mass (Kilograms/Pounds)</h4>
+                <p class="results">20 kilograms = <span id="massKP" onload="massKP()">0</span> pounds | 20 pounds = <span id="massPK" onload="massPK()">0</span> kilograms</p>
+            </div>
+            
+        </div>
+        
+     <script src="index.js"></script>    
+    </body>
+</html>
